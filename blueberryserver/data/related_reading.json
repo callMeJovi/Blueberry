@@ -1,0 +1,24 @@
+{
+    "readList":[
+        {
+            "id":1001,
+            "title": "Take the wrong train and get stuck somewhere chill. Fall in love - a lot.",
+            "img":"http://localhost/blueberryserver/images/related-read_03.png"
+        },
+        {
+            "id":1002,
+            "title": "Major in philosophy 'cause there's no way to make a career out of that. Change your mind. Then change it again, because nothing is permanent.",
+            "img":"http://localhost/blueberryserver/images/related-read_03.png"
+        },
+        {
+            "id":1003,
+            "title": "So make as many mistakes as you can. That way, someday, when they ask again what we want to be… we won't have to guess. We'll know.",
+            "img":"http://localhost/blueberryserver/images/related-read_03.png"
+        },
+        {
+            "id":1004,
+            "title": "This isn't the time to make hard and fast decisions, its time to make mistakes.",
+            "img":"http://localhost/blueberryserver/images/related-read_03.png"
+        }
+    ]
+}

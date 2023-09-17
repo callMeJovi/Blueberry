@@ -1,0 +1,34 @@
+{
+    "travelogue":[
+        {
+            "id":1001,
+            "img":"http://localhost/blueberryserver/images/youji_38.JPG",
+            "title":"let's go to see the galaxy",
+            "author":"Miss Liu's bubble tea",
+            "desc":"In the winter months, more and more people are drawn to the far north of Europe to watch an extraordinary spectacle in the sky at night: the aurora borealis — a light phenomenon that enchants the observer."
+
+        },
+        {
+            "id":1002,
+            "img":"http://localhost/blueberryserver/images/youji_39.JPG",
+            "title":"explore Lisbonne",
+            "author":"lost in my dream",
+            "desc":"Lisbon is Portugal's hilly, coastal capital city. From imposing São Jorge Castle, the view encompasses the old city's pastel-colored buildings, Tagus Estuary and Ponte 25 de Abril suspension bridge."
+        },
+        {
+            "id":1003,
+            "img":"http://localhost/blueberryserver/images/youji_40.JPG",
+            "title":"discover South Africa",
+            "author":"far away",
+            "desc":"South Africa doesn't just make it onto bucket lists as a lightly drawn scribble—it's frequently bolded, underlined, and circled right at the top. Some dream of a Big 5 safari experience; others, the food and wine of its world-famous culinary and viticultural regions."
+        },
+        {
+            "id":1004,
+            "img":"http://localhost/blueberryserver/images/youji_41.JPG",
+            "title":"Sightseeing in Hangzhou China",
+            "author":"lost in my dream",
+            "desc":"Along the West Lake, there is no absolute boundary between the city and the park. Lush trees and plant blends in with small shops. Everywhere is surrounded by the nature of green, but there is no sense of emptiness away from the city. That’s exactly what makes the city attractive and special."
+        }
+
+    ]
+}

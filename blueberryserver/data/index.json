@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "msg": "",
+  "banner": [
+    {
+      "title": "I'm in Ireland",
+      "content": "Ireland is a parliamentary republic located in Western Europe. It lies to the west of the Atlantic Ocean and is bordered by the Irish Sea to the east, facing the United Kingdom across the sea. It serves as a natural gateway from North America to Europe."
+    },
+    {
+      "title": "Alone in Beijing",
+      "content": "Beijing-often marks the logical arrival of any trip to China. National capital for 800 years, Beijing is today a tour to the future, controlling a China with rapid development, but also hosts among the most enigmatic and fabulous sites of the history of ancient China, including the temple from Heaven, the Forbidden City and the Beijing Summer Palace."
+    },
+    {
+      "title": "Dream of Provence",
+      "content": "Provence is located in southeastern France, bordering the Mediterranean Sea and Italy. It extends from the Mediterranean coastline into inland hilly regions, with the Rhone River flowing through its middle. It has been renowned since ancient times for its beautiful sunshine, azure skies, captivating Mediterranean landscapes, and enchanting atmosphere."
+    }
+  ]
+}
