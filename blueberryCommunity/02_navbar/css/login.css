@@ -1,0 +1,169 @@
+.login-container{
+    width: 100%;
+    height: 700px;
+    background: url("../images/loginpic1.png") no-repeat center center;
+    background-size: cover;
+}
+
+.footer{
+    margin-top: 0;
+}
+
+.login-container form{
+    width: 300px;
+    height: 360px;
+    background-color: #666;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+
+.login-container .login-reg-select{
+    width: 100%;
+    height: 50px;
+}
+
+.login-container .login-reg-select .login-reg-btn{
+    display:block;
+    float: left;
+    width: 145px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #000;
+    position: relative;
+
+}
+.login-reg-btn:nth-child(1){
+    margin-right: 10px;
+}
+
+.login-container .login-reg-select .login-reg-btn.go{
+    background-color: #e65e42;
+    color: #fff;
+}
+
+.login-reg-btn.go::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    border-top: 10px solid #e65e42;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.account-box{
+    position: relative;
+    display: none;
+}
+
+.account-box.go{
+    display: block;
+}
+
+.account-box .input{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    text-indent: 10px;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+.check-code{
+    overflow: hidden;
+    clear: both;
+}
+
+.check-code .checkinput{
+    float: left;
+
+}
+
+#checkcode_value{
+    width: 145px;
+    height: 40px;
+    margin-right: 10px;
+    border: 0;
+    text-indent: 10px;
+}
+
+.check-code .checkpic{
+    float: left;
+    width: 145px;
+}
+
+.checkpic img{
+    width: 100%;
+    height: 40px;
+}
+
+.login-btn{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color:#7fa900 ;
+    margin-top: 20px;
+    font-size:18px ;
+    color: #fff;
+    text-align: center;
+}
+
+.otherLogin p{
+    font-size: 12px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.otherLogin a i{
+    display: inline-block;
+}
+.otherLogin a .gg-instagram{
+    
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #f033e3;
+}
+
+.otherLogin a .gg-google{
+    /* display: inline-block; */
+    
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff
+}
+
+.otherLogin a .gg-twitter{
+    /* display: inline-block; */
+    
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgba(83,179,203,1);
+}
+
+.login-details .find-pwd{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 12px;
+
+}

@@ -1,0 +1,325 @@
+.swiper{
+    width: 100%;
+    height: 500px;
+}
+
+.swiper .s-content{
+    width: 100%;
+    height:500px;
+    background-size: cover;
+    
+}
+
+
+.swiper .s-content.s1{
+    background-image: url('../images/banner1.jpg');
+}
+
+.swiper .s-content.s2{
+    background-image: url('../images/china.jpg');
+}
+.swiper .s-content.s3{
+    background-image: url('../images/banner3.jpg');
+}
+
+.swiper .text{
+    width: 550px;
+    height: 150px;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top:150px;
+    left: 200px;
+    border-radius: 10%;
+}
+
+.swiper .text h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.swiper .text p{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.swiper-pagination-bullet{
+    background-color: #2ecc71;
+
+}
+
+/* Chapters title*/
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.p-title{
+    width: 140px;
+    margin: 40px auto;
+    display: block;
+    text-align: center;
+    color: #292929;
+}
+
+.p-title .p-title-chap{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.p-title .icon{
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    position: relative;  
+    /* 定位要在父级加relative使icon before after 排队位置 */
+}
+
+.p-title .icon-travel{
+    text-align: center;
+    width: 100%;
+    height: 15px;
+    position: relative;
+}
+
+.p-title .icon img{
+    width: 30px;
+    opacity: 0.5;
+}
+
+.p-title .icon::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #e0e0e0;
+    position: absolute;
+    left:0 ;
+    top: 8px;
+
+}
+
+.p-title .icon::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #e0e0e0;
+    position: absolute;
+    right: 0;
+    top: 8px;
+
+}
+
+.p-title .icon-travel::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #e0e0e0;
+    position: absolute;
+    left:0 ;
+    top: 8px;
+
+}
+
+.p-title .icon-travel::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #e0e0e0;
+    position: absolute;
+    right: 0;
+    top: 8px;
+
+}
+
+.p-title .p-title-text{
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Chapter content */
+.p-details{
+    width: 100%;
+    margin: 50px 0 20px 0;
+}
+
+.p-details .d-list{
+    width: 100%;
+    height: 500px;
+}
+
+.p-details .d-list .d-item{
+    float: left;
+    height: 208px;
+    border: 2px solid #fff;
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.d-list .d-item:nth-child(1){
+    margin-bottom: 20px;
+}
+
+.d-list .d-item:nth-child(2){
+    margin-bottom: 20px;
+}
+
+.p-details .d-list .d-item .item-img{
+    float: left;
+    width: 210px;
+    height: 210px;
+
+}
+
+.d-list .d-item .item-img img{
+    width: 210px;
+    height: 210px;
+}
+
+.d-list .d-item .item-text{
+    float: left;
+    margin-left: 20px;
+    height: 210px;
+    width: 350px;
+    overflow: hidden;
+    position: relative; 
+
+    
+}
+
+.d-list .d-item .item-text .text-title{
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.d-list .d-item .item-text .text-title:hover{
+    color: #52c58c;
+}
+
+.d-list .d-item .item-text .text-author{
+    display: block;
+    color: #6dc7fa;
+}
+
+.d-list .d-item .item-text .text-content{
+    color: #646464;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.d-list .d-item .item-text .comment{
+    /* float: right;
+    margin-right: 10px; */
+    /* 或者选择如下并将其父级 item-text position relative */
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    color: #ccc;
+}
+
+.d-list .d-item .item-text .comment .thumbs-num{
+    margin-right: 20px;
+}
+/* .d-list .d-item .item-text .comment .comment-num{
+    margin-right: 10px;
+} */
+
+.d-list .d-item .comment .thumb-icon{
+    background: url('../images/zan_05.png') no-repeat center center;
+    position: absolute;
+    width:20px;
+    height: 20px;
+    left: -40px;
+    top: 0;
+}
+
+.d-list .d-item .comment .comment-icon{
+    background: url('../images/pinglun_05.png') no-repeat center center;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -10px;
+    top: 0;
+}
+
+/* travelogue */
+.note-list{
+    overflow: hidden;
+    clear: both;
+
+}
+.note-list .note{
+    /* float: left; */
+    float: left;
+    width: 278px;
+    height: 400px;
+    margin-right: 25px;
+    border: 1px solid #bababa;
+    overflow: hidden;
+
+}
+
+.note-list .note:nth-child(4){
+    margin-right: 0;
+}
+
+.note-list .note a{
+    display: block;
+    position: relative;
+}
+
+.note-list .note a img{
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+
+.note-list .note a .note-title{
+    font-size:16px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.note-list .note a .note-author{
+    font-size: 12px;
+    color: green;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.note-list .note a .note-description{
+    position: absolute;
+    top:100px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    box-sizing: border-box;
+    /*animation*/
+    margin-left: -260px;
+    transition: all 0.5s;
+}
+
+
+.note-list .note a .note-desc-content{
+    font-size: 10px;
+    color: #e0e0e0;
+    line-height: 20px;
+}
+
+.note a:hover .note-description{
+    margin-left: 0;
+
+}
+

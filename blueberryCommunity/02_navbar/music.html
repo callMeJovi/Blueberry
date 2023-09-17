@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/music.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_container">
+            <div class="logo">
+                <img src="./images/logo.jpg" alt="b-logo">
+                <div class="logo-text">
+                    <strong>Blueberry</strong>
+                    <h3>share your story with us</h3>
+                </div>
+            </div>
+            <div class="main-nav">
+                <ul>
+                    <li><a href="./index.html" class="navs">Home</a></li>
+                    <li><a href="./music.html" class="navs on">Music</a></li>
+                    <li><span class="ts-num">12</span><a href="#" class="navs">Anecdotes</a></li>
+                    <li><a href="#" class="navs">Chit Chat</a></li>
+                    <li><a href="./goodies.html" class="navs">Goodies</a></li>
+                    <li><a href="#" class="navs">Fever</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <div class="search">
+                    <form action="">
+                        <input type="search" id="search">
+                        <label for="search" id="search-btn">
+                            <img src="" alt="">
+                        </label>
+                    </form>
+
+                </div>
+                <div class="login-register">
+                    <a href="./login.html" class="login">Login</a>
+                    <a href="./login.html" class="register">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of navbar -->
+
+    <!-- content container -->
+    <div class="main">
+        <!-- playlist -->
+        <div class="music-container">
+            <div class="music-info-container">
+                <div class="music-title"><a href="#">Exile - Taylor Swift</a></div>
+                <div class="play-num"><span>27</span>views</div>
+            </div>
+
+            <div class="intro-container">
+                <img src="./images/singer1.JPG" alt="">
+                <div class="song-intro">
+                    “Exile” is about two ex-lovers who run into each other shortly after their relationship has ended. The woman is already moving on and seeing someone else, and resents the man for still loving her. Both blame the other for the death of what was long ago a happy romance. The story is not about who is right, but instead about the ambiguity of what truly happened between them.
+                </div>
+            </div>
+            <div class="music-player-container">
+                <div class="playertool">
+                    <audio src="./res/culture.mp3" id="audio"></audio>
+                    <div class="controller">
+                        <div class="button">
+                            <a href="#" id="playBtn">
+                                <img src="./images/play-btn_03.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <p id="time">00:00</p>
+                    <div class="progress-bar">
+                        <div class="running-bar"></div>
+                    </div>
+                    <p id="duration">00:00</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- article -->
+        <div class="common-details">
+            <div class="article">
+                <div class="article-title">
+                    <h3 class="title-h3"></h3>
+                    <div class="article-annexe">
+                        <div class="annexe">
+                            <span class="views">80</span>
+                            <span class="share">20</span>
+                            <!-- <div class="creation-time">
+                                creation time:
+                                <span class="current-date">19/08/2023</span>
+    
+                            </div> -->
+                        </div>
+                        <div class="creation-time">
+                            creation time:
+                            <span class="current-date">19/08/2023</span>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="article-content">
+                    <div class="blog-details">
+                        <div class="blog-details-content">
+                        </div>
+                        <img src="./images/canoe.JPG" alt="">
+                        <div class="blog-details-labels">
+                            <span class="label">travel</span>
+                            <span class="label">eat</span>
+                            <span class="label">ffff</span>
+                        </div>
+                        <div class="blog-details-end">
+                            <img src="./images/endIcon_03.png" alt="">
+                        </div>
+                    </div>
+                    <!-- guess you might like -->
+                    <div class="related-reading">
+                        <div class="related-reading-title"><a href="#">Guess you might like</a></div>
+                        <div class="related-reading-contente">
+                            <!-- <div class="related-show">
+                                <a href="#">
+                                    <img class="related-pic" src="./images/related-read_03.png" alt="">
+                                    <p class="related-text">This isn't the time to make hard and fast decisions, its time to make mistakes. </p>
+
+                                        
+                                </a>
+                            </div> -->
+                            
+                        </div>
+                        <div class="related-reading-share">
+                            <div class="share-left">
+                                <div class="share-left-icons">
+                                    <a href="#"><img src="./images/tik.JPG" alt=""></a>
+                                    <a href="#"><img src="./images/fb.JPG" alt=""></a>
+                                    <a href="#"><img src="./images/twitter.JPG" alt=""></a>
+                                    <a href="#"><img src="./images/ins.JPG" alt=""></a>
+                                </div>
+                                <span>share if you like it</span>
+                            </div>
+                            <div class="share-right">
+                                <!-- <a href="#">share this blog</a> -->
+                                <a href="#">
+                                    <img src="./images/zan-big_03.png" alt="">
+                                    Like <span class="blog-zan-num">45</span>
+                                </a>
+                                <a href="#">
+                                    <img src="./images/favorites_03.png" alt="">
+                                    <span>Favoris</span>
+                                </a>
+                                <a href="#" class="report">Report</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- comments start-->
+
+                    <div class="blog-comment">
+                        <div class="people-who-like">
+                            <h4>people who liked it</h4>
+                            <div class="who-liked-list">
+                                <div class="who-liked">
+                                    <img src="./images/tupian_07.png" alt="">
+                                    <span class="people-name">Simon</span>
+                                </div>
+                                <div class="who-liked">
+                                    <img src="./images/tupian_07.png" alt="">
+                                    <span class="people-name">Simon</span>
+                                </div>
+                                <div class="who-liked">
+                                    <img src="./images/tupian_07.png" alt="">
+                                    <span class="people-name">Simon</span>
+                                </div>
+                                <div class="who-liked">
+                                    <img src="./images/tupian_07.png" alt="">
+                                    <span class="people-name">Simon</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="theme-pic">
+                            <a href="#"><img src="./images/comment-pic_03.png" alt=""></a>
+                        </div>
+                        <div class="comment-part">
+                            <h4>Leave your comments</h4>
+                            <div class="popcomment">
+                                <span class="popcomment-icon">
+                                    <img src="./images/listenSpeak/touxiang.png" alt="">
+                                </span>
+                                <div class="popcomment-text">
+                                    <b>Simon</b>
+                                    <i>20/08/2021 16:30:30</i>
+                                    <p>blablablabla</p>
+                                    <span class="popcomment-like-icon">
+                                        <b class="like-icon1"></b>
+                                        <i>34</i>
+                                        <b class="like-icon2"></b>
+                                        <i>50</i>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="popcomment">
+                                <span class="popcomment-icon">
+                                    <img src="./images/listenSpeak/touxiang.png" alt="">
+                                </span>
+                                <div class="popcomment-text">
+                                    <b>Simon</b>
+                                    <i>20/08/2021 16:30:30</i>
+                                    <p>blablablabla</p>
+                                    <span class="popcomment-like-icon">
+                                        <b class="like-icon1"></b>
+                                        <i>34</i>
+                                        <b class="like-icon2"></b>
+                                        <i>50</i>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="popcomment">
+                                <span class="popcomment-icon">
+                                    <img src="./images/listenSpeak/touxiang.png" alt="">
+                                </span>
+                                <div class="popcomment-text">
+                                    <b>Simon</b>
+                                    <i>20/08/2021 16:30:30</i>
+                                    <p>blablablabla</p>
+                                    <span class="popcomment-like-icon">
+                                        <b class="like-icon1"></b>
+                                        <i>34</i>
+                                        <b class="like-icon2"></b>
+                                        <i>50</i>
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                            
+                    </div>
+
+                    <!-- comments end -->
+                    
+                </div>
+                
+            </div>
+            <!-- side bar -->
+            <div class="article-right">
+                <div class="msg-center side-box">
+                    <div class="msg-center-up">
+                        <div class="blueberry-icon">
+                            <img src="./images/log2.JPG" alt="">
+                            <h1>Blueberry</h1>
+                        </div>
+                        <div class="square-btn">
+                            <p class="post-num">20</p>
+                            <p class="post-name">post</p>
+                        </div>
+                        <div class="square-btn">
+                            <p class="post-num">30</p>
+                            <p class="post-name">comments</p>
+                        </div>
+                        <div class="square-btn">
+                            <p class="post-num">120</p>
+                            <p class="post-name">followers</p>
+                        </div>
+                    </div>
+                    <div class="msg-center-down">
+                        <div class="circle-btn add"><a href="#"></a></div>
+                        <div class="circle-btn msg"><a href="#"></a></div>
+                    </div>
+                </div>
+                <div class="other-blog side-box">
+                    <h3 class="other-blog-title">Other blogs</h3>
+                    <ul class="blog-list">
+                        <li><a href="#">Plant Caddies Are the Back-Saving Accessory Your Large Houseplants Need</a></li>
+                        <li><a href="#">5 Smart, Stylish Ways to Accessorize an Open Kitchen</a></li>
+                        <li><a href="#">My Top Five Rural Airbnb Stays</a></li>
+                        <li><a href="#">blablablablablabla</a></li>
+                    </ul>
+                </div>
+                <div class="recommendation side-box">
+                    <h3 class="other-blog-title">Top Hits</h3>
+                    <ul class="blog-list">
+                        <li><a href="#">Plant Caddies Are the Back-Saving Accessory Your Large Houseplants Nee</a></li>
+                        <li><a href="#">5 Smart, Stylish Ways to Accessorize an Open Kitchen</a></li>
+                        <li><a href="#">blablablablablabla</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <!-- footer start -->
+    <div class="footer">
+        <div class="blin-content">
+            <div class="link-left">
+                <span>our coorporation</span>
+                <p class="link-left-content">
+                    <a href="#">Digital Home</a>
+                    <a href="#">Beauty Queen</a>
+                    <a href="#">Fakebook</a>
+                    <a href="#">JingleTech</a>
+                    <a href="#">UpperAI</a>
+                    <a href="#">World365</a>
+                </p>
+            </div>
+            <div class="link-right">
+                <div class="fakebook">
+                    <img src="./images/footer-ewm1.jpg" alt="">
+                    <span>QR code for Fakebook</span>
+                </div>
+                <div class="twister">
+                    <img src="./images/footer-ewm2.jpg" alt="">
+                    <span>QR code for twister</span>
+                </div>
+                <div class="contact">
+                    <p>Tel:1234567</p>
+                    <p><i>Poste code: 100100</i></p>
+                    <p>email:info@bberry.com</p>
+                    <p>Location: 77 Sunset avenue, Melbourne</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bot-content">
+                <span><a href="#">About us</a></span>
+                <span><a href="#">Contact us</a></span>
+                <span><a href="#">Join us</a></span>
+                <!-- <span><a href="#">Work with us</a></span> -->
+                <p class="copy-right">
+                    <em>Copy right Blueberry</em>
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer end -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/music.js"></script>
+    
+    
+</body>
+</html>

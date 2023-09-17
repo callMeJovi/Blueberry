@@ -1,0 +1,664 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.main{
+    width: 1200px;
+    margin:70px auto;
+}
+
+.music-container{
+    width: 100%;
+    height: 400px;
+    background-color:#fff ;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.music-container .music-info-container{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+
+
+}
+
+.music-container .music-info-container .music-title{
+    float: left;
+    margin-left: 30px;
+}
+
+.music-container .music-info-container .music-title a{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.music-container .music-info-container .play-num{
+    float: right;
+    line-height: 70px;
+    font-size:14px;
+    margin-right: 50px;
+    margin-right: 50px;
+    color: #a1a1a1;
+}
+
+.music-container .music-info-container .play-num span{
+    color: #109d59;
+    margin-right: 5px;
+}
+
+.music-container .intro-container{
+    width: 100%;
+    height: 220px;
+    background-image: url("../images/song-background_03.png");
+    background-size: cover;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    clear: both;
+
+}
+
+.music-container .intro-container img{
+    float: left;
+    width: 200px;
+    height: 170px;
+    border-radius: 5px;
+
+}
+
+.music-container .intro-container .song-intro{
+    float: left;
+    margin-left: 20px;
+    width: 840px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.music-container .music-player-container {
+    width: 100%;
+    height: 50px;
+}
+
+.music-container .music-player-container .controller .button a{
+    margin: 15px 20px 0 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    background-color:#fff ;
+    float: left;
+
+}
+
+.music-container .music-player-container .controller .button a img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+
+.playertool p{
+    float: left;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+
+}
+
+.playertool .progress-bar{
+    float: left;
+    margin-left: 10px;
+    margin-top: 33px;
+    width: 910px;
+    height: 8px;
+    background-color:#d3ede9 ;
+    border-radius: 20px;
+}
+
+.playertool .progress-bar .running-bar{
+    float: left;
+    width: 0;
+    height: 8px;
+    background-color: #109d59;
+    border-radius: 20px;
+
+
+}
+
+/* article */
+.main .common-details{
+    width: 100%;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    clear: both;
+}
+
+.common-details .article{
+    float: left;
+    width: 810px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom:20px ;
+}
+
+.article .article-title{
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 30px;
+    height: 100px;
+    
+
+}
+
+.article .article-title h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.article .article-title .article-annexe{
+    line-height: 54px;
+}
+
+.article-annexe .annexe{
+    float: left;
+    
+
+}
+
+.article-annexe .creation-time{
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #999;
+}
+
+.article-annexe .annexe span{
+    float: left;
+    margin-right: 43px;
+    text-indent: 23px;
+    margin-left: 10px;
+    color: #999;
+    position: relative;
+
+}
+
+.article-annexe .annexe .views::before{
+    content: "";
+    display: block;
+    width: 23px;
+    height: 14px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: url("../images/eye_03.png") no-repeat center center;
+
+}
+
+.article-annexe .annexe .views::before{
+    content: "";
+    display: block;
+    width: 23px;
+    height: 14px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: url("../images/eye_03.png") no-repeat center center;
+
+}
+
+.article-annexe .annexe .share::before{
+    content: "";
+    display: block;
+    width: 23px;
+    height: 14px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background: url("../images/gray-wechat.png") no-repeat center center;
+
+}
+
+.article .article-content{
+    width: 100%;
+}
+
+.article-content .blog-details .blog-details-labels{
+    margin-top: 20px;
+    position: relative;
+    border-top: 1px solid #ded7d7;
+    padding: 10px 0 0 20px;
+
+}
+
+
+.article-content .blog-details .blog-details-labels::before{
+    content: "";
+    display: block;
+    width: 23px;
+    height: 14px;
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    background: url("../images/labelIcon_03.png") no-repeat;
+
+}
+
+.blog-details-labels .label{
+    color: #fff;
+    display: inline-block;
+    background: #999;
+    text-align: center;
+    padding: 0 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 12px;
+
+}
+
+.blog-details .blog-details-end{
+    width: 810px;
+    height:170px ;
+    text-align: center;
+}
+
+.blog-details .blog-details-end img{
+    width: 40px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.blog-details img{
+   text-align: center;
+   margin-top: 20px;
+
+}
+
+.blog-details .blog-details-content{
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+/* guess you might like */
+
+.related-reading{
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+
+}
+
+.related-reading-title{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+}
+
+.related-reading-title a{
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.related-reading .related-reading-contente{
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+.related-reading .related-reading-contente .related-show{
+    width: 400px;
+    height: 170px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+.related-reading .related-reading-contente .related-show:nth-child(odd){
+    margin-right: 10px;
+
+}
+
+.related-reading .related-reading-contente .related-show .related-pic{
+    width: 100%;
+
+}
+
+.related-show .related-text{
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.related-reading .related-reading-share{
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    padding:20px 5px ;
+
+}
+
+.related-reading-share .share-left{
+    float: left;
+}
+
+.related-reading-share .share-left .share-left-icons a img{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.related-reading-share .share-right{
+    float: right;
+    position: relative;
+}
+
+.related-reading-share .share-right a{
+    display: inline-block;
+    
+    padding: 7px 12px;
+    text-align: center;
+    /* border: 1px solid #9da09e; */
+    border-radius: 20px;
+    background-color: #fff;
+    margin-right: 5px;
+    color: #999;
+    /* font-size: 12px;
+    width: 70px;
+    height: 20px; */
+}
+
+/* .related-reading-share .share-right .report{
+    position: absolute;
+    bottom: -30px;
+    right: 10px;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+} */
+
+/* comments */
+.blog-comment .people-who-like{
+    width: 100%;
+    line-height: 50px;
+    overflow: hidden;
+
+
+}
+
+.blog-comment .people-who-like h4{
+    margin-bottom: 10px;
+    text-indent: 10px;
+    position: relative;
+}
+
+.blog-comment .people-who-like h4::before{
+    content: "";
+    width: 4px;
+    height: 20px;
+    background-color: #f68344;
+    position: absolute;
+    top: 16px;
+    left: 0;
+}
+
+.who-liked-list .who-liked{
+    float: left;
+    width:50px;
+    margin-right: 10px;
+}
+
+.who-liked-list .who-liked img{
+    width: 50px;
+    height:50px ;
+    border-radius: 50%;
+    display: block;
+}
+
+.who-liked-list .who-liked .people-name{
+    line-height: 30px;
+    text-align: center;
+    display:block ;
+    color: #474747;
+
+}
+
+.blog-comment .theme-pic{
+    width: 100%;
+    margin: 40px 0;
+
+}
+
+.popcomment{
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 10px;
+    clear: both;
+    overflow: hidden;
+    position: relative;
+}
+
+.comment-part h4{
+    margin-bottom: 10px;
+    text-indent: 10px;
+    
+}
+.comment-part{
+    position: relative;
+}
+.comment-part h4::before{
+    content: "";
+    width: 4px;
+    height: 20px;
+    background-color: #f68344;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.popcomment .popcomment-icon{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.popcomment .popcomment-icon img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.popcomment-text{
+    float: left;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.popcomment-text>b{
+    font-size: 14px;
+    padding: 0 10px;
+    color: #333;
+
+}
+
+.popcomment-text>i{
+    font-size:10px;
+    color: #999;
+    font-style: normal;
+}
+
+.popcomment-text>p{
+    font-size: 14px;
+    color: #0b0b0b;
+    margin: 5px 0 0 10px;
+    line-height: 22px;
+}
+
+.popcomment-like-icon{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.popcomment-like-icon .like-icon1{
+    /* display: inline-block; */
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background:url("../images/gray-wechat.png") no-repeat center center ;
+    
+
+}
+
+.popcomment-like-icon .like-icon2{
+    /* display: inline-block; */
+    width: 20px;
+    height: 20px;
+    background:url("../images/listenSpeak/spriteicon.png") no-repeat center center ;
+
+}
+
+.popcomment-like-icon>i{
+    margin-right: 18px;
+}
+
+
+/* side bar */
+.article-right{
+    float: right;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.side-box{
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.article-right .side-box .msg-center-up .blueberry-icon{
+    clear: both;
+    overflow:hidden ;
+    margin: 20px auto;
+
+}
+.article-right .side-box .msg-center-up .blueberry-icon img{
+    width: 70px;
+    height: 75px;
+    
+    float: left;
+    display: block;
+}
+
+.article-right .side-box .msg-center-up .blueberry-icon h1{
+   float: left;
+   height: 75px;
+   line-height: 75px;
+    font-size: 18px;
+   color: green;
+   margin-left: 20px;
+}
+
+.msg-center-up{
+    padding: 20px;
+    overflow: hidden;
+    clear: both;
+}
+
+/* .blueberry-icon{
+    margin: 20px auto;
+} */
+
+/* if float needed, add overflow: hidden; clear:both in its parent class*/
+.msg-center-up .square-btn{
+    float: left;
+    width: 33.33%;
+    height: 50px;
+    text-align: center;
+
+}
+
+.msg-center-down{
+    height:80px ;
+    padding: 20px 50px;
+}
+
+.circle-btn.add{
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: url("../images/guanzhu.png") no-repeat center center;
+    position: relative;
+
+}
+
+.circle-btn.add::after{
+    content: "follow";
+    display: block;
+    position: absolute;
+    top: 65px;
+    left: 12px;
+    color: #999;
+
+}
+
+.circle-btn.msg{
+    float: right;
+    width: 60px;
+    height: 60px;
+    background: url("../images/sixin.png") no-repeat center center;
+    position: relative;
+
+}
+
+.circle-btn.msg::after{
+    content: "message";
+    display: block;
+    position: absolute;
+    top: 65px;
+    left: 8px;
+    color: #999;
+
+}
+
+.other-blog,.recommendation{
+    padding: 20px;
+}
+
+.other-blog-title{
+    font-size: 18px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 15px;
+
+}
+
+.blog-list{
+    margin-top: 15px;
+}
+
+.blog-list li a{
+    /*tag a whose width is not valid if display is not in block*/
+    display: block;
+    width: 260px;
+    font-size: 15px;
+    /*保持文本一行 超出部分显示...*/
+    overflow: hidden;
+    text-overflow:ellipsis ;
+    white-space: nowrap;
+    line-height: 30px;
+}
+
+.blog-list li a:hover{
+    color: #109d59;
+}
